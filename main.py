@@ -3,7 +3,7 @@ def main():
     text = get_book_text(book_path)
     print(text)
     num_words = get_num_words(text)
-    print(f"--- Begin report of {book_path} ---")
+    print(f"-- Begin report of {book_path} --")
     print(f"{num_words} words found in the document\n")
 
     chars_dict = get_chars_dict(text)
